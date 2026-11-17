@@ -14,6 +14,9 @@ resposta3 = input('Incluir símbolos? [S/N] ').upper()
 
 caracteres = ''
 
+if resposta == 'S':
+    caracteres += letras_maiusculas
+
 if resposta1 == 'S':
     caracteres += letras_minusculas
 
